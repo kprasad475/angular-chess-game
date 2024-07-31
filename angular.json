@@ -35,9 +35,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/chessboard-1.0.0/css/chessboard-1.0.0.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/chessboard-1.0.0/js/chessboard-1.0.0.min.js"
+
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -106,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4d2c3846-91b7-4848-9a68-fe83f2e93bc7"
   }
 }
