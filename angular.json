@@ -36,10 +36,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/chessboard-1.0.0/css/chessboard-1.0.0.min.css"
+              "src/assets/css/chessboard-1.0.0.min.css"
             ],
             "scripts": [
-              "src/assets/chessboard-1.0.0/js/chessboard-1.0.0.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+
+              "src/assets/js/chessboard-1.0.0.min.js"
 
             ],
             "server": "src/main.server.ts",
